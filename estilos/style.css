@@ -31,12 +31,17 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.692);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+    -webkit-transition: width 0.3s, height 0.3s;
+    -moz-transition: width 0.3s, height 0.3s;
+    -ms-transition: width 0.3s, height 0.3s;
+    -o-transition: width 0.3s, height 0.3s;
 }
 
 section#login > div#imagem {
