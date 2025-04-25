@@ -59,13 +59,69 @@ section#login > div#formulario {
 
 section#login > div#formulario > h1{
     text-align: center;
+    margin-bottom: 10px;
 }
 
 section#login > div#formulario > p {
     font-size: 0.8em;
-    padding: 0px 10px;
 }
 
-section#login > div#formulario > form {
-    padding: 10px;
+div.campo {
+    background-color: #5f2c82;
+    color: white;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > input {
+    background-color: #7bd8d5ea;
+    padding: 3px;
+    border-radius: 6px;
+    height: 100%;
+    width: 85%;
+}
+
+div.campo > input:focus {
+    background-color: white;
+}
+
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #2d6462;
+}
+
+a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #c3eceb;
+    color: #2d6462;
+    border: 1px solid #49a09d;
+    border-radius: 7px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding-top: 7px;
+}
+
+a.botao:hover {
+    background-color: #7ee4e0;
+}
+
+a.botao > span {
+    font-size: 0.8em;
 }
